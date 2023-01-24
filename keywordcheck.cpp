@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string str;
+    cout<<"enter a string or letter: ";
+    cin>>str;
+
+    if(str=="auto" || str=="double" || str=="int" || str=="struct" || str=="break" || str=="else" || str=="long" ||
+      str=="switch" || str=="case" || str=="enum" || str=="register" || str=="typedef" || str=="char" ||
+      str=="extern" || str=="return" || str=="union" || str=="const" || str=="float" || str=="short" ||
+      str=="unsigned" || str=="continue" || str=="for" || str== "signed" || str=="void" || str=="default" ||
+      str=="goto"|| str=="sizeof" || str=="voltile" || str=="do" || str=="if" || str=="static" || str=="while")
+        cout<<"it's keyword" ;
+    else
+        cout<<"it's not keyword" ;
+
+}
